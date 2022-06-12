@@ -11,7 +11,7 @@ function myMainTitle(){
 console.log(myMainTitle());
 
 function passCheck(){
-    let check = document.forms["myForm"]["word"].value;
+    let check = document.forms["myForm"]["password"].value;
     let hitungCek = check.length;
     if(hitungCek < 8){
         alert("Password anda harus lebih dari 8 Huruf !!");
