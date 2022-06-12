@@ -1,0 +1,32 @@
+body{
+    font-family: cursive;
+}
+.learn-area{
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+}
+
+#header{
+    border : 2px solid #DF7861;
+    border-radius: 20px;
+    background-color: #DF7861;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+#intro{
+    border : 2px solid #ECB390;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    background-color:#ECB390 ;
+    margin: 10px;
+}
+#main{
+    border: #DF7861 5px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
