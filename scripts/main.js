@@ -29,7 +29,7 @@ function passCheck2(){
         document.getElementById("p2").textContent = "Too Weak!";
         document.getElementById("p2").style.color = "red";
         return false;
-    }else if(checkLength = 8){
+    }else if(checkLength == 8){
         document.getElementById("p2").textContent = "Its Oke!";
         document.getElementById("p2").style.color = "yellow";
         return false;
