@@ -1,7 +1,9 @@
+/*
 function MyIntro(){
     let Nama = "Denny Mario";
     document.getElementById("intro").innerHTML = Nama;
 }
+*/
 console.log(MyIntro());
 
 function myMainTitle(){
@@ -41,3 +43,4 @@ function passCheck2(){
         return false;
     }
 }
+
