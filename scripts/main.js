@@ -21,3 +21,23 @@ function passCheck(){
         return false;
     }
 }
+
+function passCheck2(){
+    let checking = document.forms["PassChecker2"]["myPass"].value;
+    let checkLength = checking.length;
+    if(checkLength <=7){
+        document.getElementById("p2").textContent = "Too Weak!";
+        document.getElementById("p2").style.color = "red";
+        return false;
+    }else if(checkLength = 8){
+        document.getElementById("p2").textContent = "Its Oke!";
+        document.getElementById("p2").style.color = "yellow";
+        return false;
+    }else if(checkLength > 10){
+        document.getElementById("p2").textContent = "So Strong!!";
+        document.getElementById("p2").style.color = "green";
+        return false;
+    }else{
+        return false;
+    }
+}
