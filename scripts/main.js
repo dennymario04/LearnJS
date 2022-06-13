@@ -4,8 +4,6 @@ function MyIntro(){
     document.getElementById("intro").innerHTML = Nama;
 }
 */
-console.log(MyIntro());
-
 function myMainTitle(){
     const mainTitle = "JS Pass Checker";
     document.getElementById("title").textContent = mainTitle;
@@ -40,7 +38,29 @@ function passCheck2(){
         document.getElementById("p2").style.color = "green";
         return false;
     }else{
+        document.getElementById("p2").textContent = "Input Password";
+        document.getElementById("p2").style.color = "black";
         return false;
     }
 }
 
+function passCheck3(){
+    let ketik = document.forms["myForm3"]["password3"].value;
+    let cekKetikan = ketik.length;
+
+    if(cekKetikan <= 7){
+        document.getElementById("p3").textContent = "Too Weak!";
+        document.getElementById("p3").style.color = "red";
+        return false;
+    }else if(cekKetikan == 8){
+        document.getElementById("p3").textContent = "ITS OK!";
+        document.getElementById("p3").style.color = "yellow";
+        return false;
+    }else if(cekKetikan>=14){
+        document.getElementById("p3").textContent = "So Strong!";
+        document.getElementById("p3").style.color = "green";
+        return false;
+    }else{
+        return false;
+    }
+}

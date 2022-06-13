@@ -16,17 +16,24 @@
         </div>
         <div id="intro"></div>
         <div id="main">
-            <h3 id="title"></h3>
-            <form name="myForm" onsubmit="return passCheck()" method="post">
-                <input type="password" name="password" id="">
-                <input type="submit" value="check">
-            </form>
-            <h3 id="title2">JS Pass checker 2</h3>
-            <form action="" name="PassChecker2" method="post" onsubmit="return passCheck2()">
-                <input type="password" name="myPass" id="">
-                <input type="submit" value="check" >
-                <p id="p2"></p>
-            </form>
+            <div id="mainLeft">
+                <h3 id="title"></h3>
+                <form name="myForm" onsubmit="return passCheck()" method="post">
+                    <input type="password" name="password" id="">
+                    <input type="submit" value="check">
+                </form>
+                <h3 id="title2">JS Pass checker 2</h3>
+                <form action="" name="PassChecker2" method="post" onsubmit="return passCheck2()">
+                    <input type="password" name="myPass" id="">
+                    <input type="submit" value="check">
+                    <p id="p2"></p>
+                </form>
+                <h3 id="title3">JS PassChecker3</h3>
+                <form action="" name="myForm3" method="post">
+                    <input type="password" name="password3" id="" oninput="passCheck3()" placeholder="Input Langsung!">
+                    <p id="p3"></p>
+                </form>
+            </div>
         </div>
     </div>
 
